@@ -13,6 +13,7 @@ public class MarkSheet {
 		long math = scan.nextLong();
 		long science = scan.nextLong();
 		long social = scan.nextLong();
+		long Ai = scan.nextLong();
 		
 		System.out.println("Your Name:"+UrName);
 		System.out.println("Your Id  :"+UrId);
@@ -21,8 +22,10 @@ public class MarkSheet {
 		System.out.println("Math     :"+math);
 		System.out.println("Science  :"+science);
 		System.out.println("Social   :"+social);
-		System.out.println("Total    :"+(tamil+english+math+science+social));
-		System.out.println("Avg      :"+((tamil+english+math+science+social)/5));
+		System.out.println("AI   :"+Ai);
+		
+		System.out.println("Total    :"+(tamil+english+math+science+social+Ai));
+		System.out.println("Avg      :"+((tamil+english+math+science+social+Ai)/6));
 		
 	}
 
